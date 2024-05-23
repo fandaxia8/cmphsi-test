@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="x-ua-compatible" content="IE=Edge,chrome=1">
+  <title>预览打印证书-民办教育服务信息网（民教网）—官网</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link type="text/css" rel="stylesheet" href="static/css/style5.css">
+  <script type="text/javascript" src="static/js/jquery.js"></script>
+  <script type="text/javascript" src="static/js/tabpic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+</head>
+
+<body style="background-color:#fff;">
+
+  <div id="container">
+    <div id="contain_main" style="float:none;margin:0 auto;">
+      <table cellspacing="0" cellpadding="0" class="zsfrm">
+        <caption>全国民办院校学生学业证书查询结果</caption>
+        <tbody>
+          <tr>
+            <td align="center">姓 名</td>
+            <td colspan="3">范明广</td>
+            <td rowspan="4" align="center"><img src="./photo.jpg" class="imgwh"></td>
+          </tr>
+          <tr>
+            <td align="center">性 别</td>
+            <td>男</td>
+            <td style="white-space:nowrap;text-align:center;">出生日期</td>
+            <td style="white-space:nowrap;">2000-01-16</td>
+          </tr>
+          <tr>
+            <td style="white-space:nowrap;text-align:center;">入学时间</td>
+            <td style="white-space:nowrap;">2013-09-01</td>
+            <td style="white-space:nowrap;text-align:center;">毕业时间</td>
+            <td style="white-space:nowrap;">2017-07-01</td>
+          </tr>
+          <tr>
+            <td style="white-space:nowrap;text-align:center;">身份证号</td>
+            <td>412723200001168137</td>
+            <td style="white-space:nowrap;text-align:center;">学历层次</td>
+            <td>本科</td>
+          </tr>
+          <tr>
+            <td style="white-space:nowrap;text-align:center;">毕业院校</td>
+            <td colspan="3">郑州科技学院</td>
+            <td rowspan="3" align="center">
+              <!-- <div id="div_div"></div><canvas id="Canvas"></canvas> -->
+              <div id="qrcodes"></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="white-space:nowrap;text-align:center;">专业名称</td>
+            <td>计算机科学与技术</td>
+            <td style="white-space:nowrap;text-align:center;">学习形式</td>
+            <td>全日制</td>
+          </tr>
+          <tr>
+            <td style="white-space:nowrap;text-align:center;">证书编号</td>
+            <td>19863201707366392</td>
+            <td style="white-space:nowrap;text-align:center;">毕业结论</td>
+            <td>毕业</td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <a href="list-34-1.html">证书查询</a>
+              <a href="list-37-1.html">认证报告</a>
+              <a href="list-36-1.html">在线验证</a>
+              <a href="list-36-1.html">学籍查询</a>
+            </td>
+            <td colspan="2" align="center"><a href="" target="_blank">预览打印</a></td>
+            <td align="center">二维码验证</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="padding:15px;font-size:14px;">
+              <p style="font-size:14px;font-weight:bold;margin-bottom:10px;">注意事项：</p>
+              <ul style="font-size:14px;line-height:26px;padding-left:20px;margin-bottom:15px;">
+                <li style="font-size:14px;list-style:decimal;margin-bottom:5px;">
+                  根据教育部办公厅《关于印发全国教育电子政务建设实施要点的通知》及《关于中央级全国学校信息资源库建设事项的通知》，并贯彻落实教育部25号令，平台开通，规范全国民民办高校非学历教育的招生和学籍管理以及就业工作，保障非学历教育学生就业信息的公开和完善。
+                </li>
+                <li style="font-size:14px;list-style:decimal;margin-bottom:5px">
+                  根据教育部颁发的《普通高等学校基本办学条件指标合格标准》和《民办高等学校办学管理若干规定》，未经审核的民办高校自行招生的学生，毕业时所获得的学业证书，用人单位将无法在本平台查询。</li>
+                <li style="font-size:14px;list-style:decimal;margin-bottom:5px">本平台目前仅对国家教育主管部门审批的民办高校或民办高等教育机构开放。</li>
+                <li style="font-size:14px;list-style:decimal;margin-bottom:5px">本平台提供第三方查询服务，入网信息的法力效力由发证院校负责，本站保留意见。
+                </li>
+                <li style="font-size:14px;list-style:decimal;margin-bottom:5px">本平台开通项目：学业证书、学生学籍、学生档案、查询报告、在线验证。</li>
+                <li style="font-size:14px;list-style:decimal;margin-bottom:5px">
+                  未经证书信息权属人同意，不得将本材料用于违背权属人意愿之用途。查询信息内容标注“*”，表示该项内容不详。证书信息如有修改，请以网站在校查询内容为准。</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="clearboth"></div>
+  </div>
+  <script>
+    var currentUrl = window.location.href;
+
+    var qrcode = new QRCode(document.getElementById("qrcodes"), {
+      text: currentUrl,
+      width: 128,
+      height: 128,
+    });
+  </script>
+
+  <style type="text/css">
+    table {
+      border-collapse: collapse;
+      border: none;
+    }
+
+    table.zsfrm {
+      width: 100%;
+    }
+
+    table.zsfrm caption {
+      padding: 10px 0;
+      text-align: center;
+      font-size: 24px;
+      font-weight: normal;
+      color: #2eafbb;
+    }
+
+    table.zsfrm td {
+      padding: 5px 10px;
+      border: 1px solid #a1d4e7;
+      font-size: 14px;
+    }
+
+    .imgwh {
+      max-width: 120px;
+      max-height: 170px;
+    }
+
+    table.zsfrm td.bg {
+      background-color: #eee;
+      color: #000;
+      float: none !important;
+    }
+  </style>
+
+
+
+
+  <script type="text/javascript" src="static/js/qrcode.js"></script>
+  <script type="text/javascript" src="static/js/jquery.qrcode.js"></script>
+  <script>
+    window.print();
+  </script>
+</body>
+
+</html>

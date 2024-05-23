@@ -1,0 +1,21 @@
+.main_gk {display:block;padding:13px;margin-top:10px;background-color:#2eafbb;}
+.main_gk .nav001 {float:left;position:relative;width:199px;padding:0;margin:0;background-color:#fff;line-height:0;font-size:0;}
+.main_gk .gk_r {width:765px;background-color:#fff;position:relative;float:right;padding-bottom:30px;}
+
+.main_gk .nav001 ul {margin-top:15px;}
+.main_gk .nav001 ul li {width:182px;height:38px;margin-right:auto;margin-left:auto;display:block;margin-bottom:5px;}
+
+.nav001 ul a {display:block;width:182px;height:38px;overflow:hidden;line-height:38px;text-align:center;}
+.nav001 ul .n001 a {color:red;}
+.nav001 ul .n002 a {color:red;}
+.nav001 ul .n003 a {color:red;}
+.nav001 ul .n004 a {color:red;}
+.nav001 ul .n005 a {color:red;}
+.nav001 ul .n006 a {color:red;}
+.nav001 ul .n007 a {color:red;}
+
+.main_gk .nav001 .tel {text-align:center;}
+.main_gk .gk_r .gk_tit {margin-top:30px;margin-bottom:8px;padding-left:20px;}
+.main_gk .gk_r .dpic {margin-left:20px;}
+.main_gk .gk_r .txt {line-height:28px;margin-left:20px;margin-right:20px;color:#069;}
+.main_gk .gk_r .txt p {margin-bottom:10px;font-size:16px;text-indent:2em;}
