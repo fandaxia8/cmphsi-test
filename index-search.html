@@ -73,9 +73,9 @@
           </tr>
           <tr>
             <td style="white-space:nowrap;text-align:center;">入学时间</td>
-            <td style="white-space:nowrap;">2013-09-01</td>
+            <td style="white-space:nowrap;">2015-09-01</td>
             <td style="white-space:nowrap;text-align:center;">毕业时间</td>
-            <td style="white-space:nowrap;">2017-07-01</td>
+            <td style="white-space:nowrap;">2019-07-01</td>
           </tr>
           <tr>
             <td style="white-space:nowrap;text-align:center;">身份证号</td>
@@ -87,7 +87,6 @@
             <td style="white-space:nowrap;text-align:center;">毕业院校</td>
             <td colspan="3">郑州科技学院</td>
             <td rowspan="3" align="center">
-              <!-- <div id="div_div"></div><canvas id="Canvas"></canvas> -->
               <div id="qrcodes"></div>
             </td>
           </tr>
@@ -110,7 +109,9 @@
               <a href="list-36-1.html">在线验证</a>
               <a href="list-36-1.html">学籍查询</a>
             </td>
-            <td colspan="2" align="center"><a href="index-search-print.html" target="_blank">预览打印</a></td>
+            <td colspan="2" align="center">
+              <a id="print" href="index-search.html">预览打印</a>
+            </td>
             <td align="center">二维码验证</td>
           </tr>
           <tr>
@@ -145,6 +146,7 @@
       width: 128,
       height: 128,
     });
+    document.getElementById("qrcodes").title = '二维码验证'
   </script>
 
   <style type="text/css">
@@ -183,7 +185,11 @@
     }
   </style>
 
-
+  <script>
+    document.getElementById("print").onclick = function () {
+      window.print();
+    }
+  </script>
 
   <!--<div class="clearboth"></div>
 <div class="footer2" style="margin-top:15px;">

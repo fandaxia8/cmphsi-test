@@ -238,31 +238,12 @@
         if (t.value == '') { alert('请输入姓名'); event.preventDefault(); return false; }
         if (b.value == '') { alert('请输入学位编号'); event.preventDefault(); return false; }
         if (code.value == '') { alert('请输入验证码'); event.preventDefault(); return false; } else {
-          // var xhr = createXHR();
-          // xhr.onreadystatechange = function () {
-          //   if (xhr.readyState == 4) {
-          //     if ((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
-          //       var data = xhr.responseText;
-          //       if (data == 0) {
-          //         alert('验证码不正确');
-          //       } else if (data == 1) {
-          //         var hrefstr = '/index.php?c=searchxw&do=1&t=' + reverseString(t.value) + '&b=' + b.value;
-          //         window.top.location.href = hrefstr;
-          //       }
-          //     } else {
-          //     }
-          //   }
-          // }
-          // xhr.open('post', 'index.php', false);
-          // xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-          // xhr.send('/index.php?m=content&c=search&a=public_checkcode&code=' + code.value);
-
 
           const userInput = document.getElementById('userInput').value;
           const resultElement = document.getElementById('result');
           if (userInput === generatedCaptcha) {
             if (t.value === '范明广' && b.value === '198632017073692') {
-              var hrefstr = '/cmphsi-test/index-search-2-print.html?c=search&do=1&t=' + t.value + '&b=' + b.value;
+              var hrefstr = '/index-search-2.html?c=search&do=1&t=' + t.value + '&b=' + b.value;
               window.top.location.href = hrefstr;
               event.preventDefault(); return false;
             } else {
