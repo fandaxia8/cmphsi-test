@@ -89,7 +89,7 @@ a.underline:hover {text-decoration:underline; }
 
 .latest ul li { margin:2px 0px 1px; padding-left:18px; width:365px; height:24px; line-height:24px; font-size:14px; background:url(../image/icon.png) no-repeat -490px -204px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; }
 
-.latest ul li span { margin-right:8px; padding-right:8px; background:url(http://www.cmphsi.com.cn/static/image/sprite.png) no-repeat right -220px; *background-position:right -223px;
+.latest ul li span { margin-right:8px; padding-right:8px; background:url(http://www.cmhis.cn/static/image/sprite.png) no-repeat right -220px; *background-position:right -223px;
 }
 
 .latest ul li span a:link, .latest ul li span a:visited { color:#00376D; text-decoration:none; }
@@ -360,11 +360,11 @@ font-size:12px; color:#787878; }
 
 .light { border:none; background:none; }
 
-.light dt { height:25px; border:1px solid #BFE0F9; overflow:hidden; background:url(http://www.cmphsi.com.cn/static/image/fr-bg2.gif) 0 0 repeat-x; clear:both; }
+.light dt { height:25px; border:1px solid #BFE0F9; overflow:hidden; background:url(http://www.cmhis.cn/static/image/fr-bg2.gif) 0 0 repeat-x; clear:both; }
 
 .light dd { border-left:1px solid #BFE0F9; border-right:1px solid #BFE0F9; border-bottom:1px solid #BFE0F9; padding:4px 4px 0px; overflow:hidden; }
 
-dt.light strong { background:url(http://www.cmphsi.com.cn/static/image/fbico2.gif) 5px 5px no-repeat; }
+dt.light strong { background:url(http://www.cmhis.cn/static/image/fbico2.gif) 5px 5px no-repeat; }
 
 .decmt-act { float:right; margin-top:-18px; padding-right:10px; position:relative; clear:both; color:#999; }
 
@@ -385,9 +385,9 @@ dt.light strong { background:url(http://www.cmphsi.com.cn/static/image/fbico2.gi
 
 .rlink { width:172px; height:52px; float:left; overflow:hidden; padding-top:4px; }
 
-.rlink ul li { width:78px; height:21px; background:url(http://www.cmphsi.com.cn/static/image/toprlink-bg.gif) left top no-repeat; float:left; margin-right:8px; margin-bottom:8px; overflow:hidden; }
+.rlink ul li { width:78px; height:21px; background:url(http://www.cmhis.cn/static/image/toprlink-bg.gif) left top no-repeat; float:left; margin-right:8px; margin-bottom:8px; overflow:hidden; }
 
-.rlink ul li a { display:block; color:#777; line-height:21px; text-indent:22px; background-image:url(http://www.cmphsi.com.cn/static/image/toprlink-bg.gif); background-repeat:no-repeat; }
+.rlink ul li a { display:block; color:#777; line-height:21px; text-indent:22px; background-image:url(http://www.cmhis.cn/static/image/toprlink-bg.gif); background-repeat:no-repeat; }
 
 .rlink ul li a:hover { color:#000; }
 
@@ -531,7 +531,7 @@ pre .dp-cpp .datatypes { color:#2E8B57; font-weight:bold }
 
 .channel-nav .sonnav { width:980px; line-height:26px; float:left; background-color:#E9FAFE; padding-left:3px; }
 
-.channel-nav .sonnav span { padding-left:14px; margin-right:8px; background:url(http://www.cmphsi.com.cn/static/image/dd2.gif) 0 1px no-repeat; overflow:hidden; }
+.channel-nav .sonnav span { padding-left:14px; margin-right:8px; background:url(http://www.cmhis.cn/static/image/dd2.gif) 0 1px no-repeat; overflow:hidden; }
 
 .spec { margin-top: 10px; border: 1px solid #DADADA; padding: 4px 10px; width: 678px; }
 
@@ -569,7 +569,7 @@ pre .dp-cpp .datatypes { color:#2E8B57; font-weight:bold }
 .tr{ margin-left: 8px; }
 .tl .list3,.tr .list3{padding:5px 4px 0px 4px;}
 a {text-decoration:none;color:#333333}a:hover {color:#CE0112;text-decoration:underline}
-.box .rc-tp,.box .rc-tp b,.box .rc-bt,.box .rc-bt b,.box-skin-blue .hd,.tab-holder .selected,.tab-holder .selected s,.t,.list li,.list1 li,.list2 li,.list3 li{background:url(http://www.cmphsi.com.cn/static/image/base.png) no-repeat -999em 0;}
+.box .rc-tp,.box .rc-tp b,.box .rc-bt,.box .rc-bt b,.box-skin-blue .hd,.tab-holder .selected,.tab-holder .selected s,.t,.list li,.list1 li,.list2 li,.list3 li{background:url(http://www.cmhis.cn/static/image/base.png) no-repeat -999em 0;}
 .box{ margin-bottom:5px; background:#fff; }
 .box .hd{border:solid #DCDCDC;border-width:1px 1px 0;line-height:28px;background:#F5F5F5; height: 28px;position:relative}
 .box .hd h3{padding:0px;font-size:13px;display:inline; float:left;margin-left:10px;margin-right:10px;color:#4A8109;}
@@ -587,7 +587,7 @@ a {text-decoration:none;color:#333333}a:hover {color:#CE0112;text-decoration:und
 .box-skin-blue .rc-bt{background-position:-162px -53px;}
 .box-skin-blue .rc-bt b{background-position:-159px -53px;}
 .xg .list{margin:5px 8px;}
-.xg .list li{height:24px;line-height:24px; padding-left:12px;background-position:-163px -70px;overflow:hidden;_background:url(http://www.cmphsi.com.cn/static/image/ie6jt.gif) no-repeat 0 5px;}
+.xg .list li{height:24px;line-height:24px; padding-left:12px;background-position:-163px -70px;overflow:hidden;_background:url(http://www.cmhis.cn/static/image/ie6jt.gif) no-repeat 0 5px;}
 
 .xg { }
 

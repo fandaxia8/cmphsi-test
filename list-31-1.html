@@ -148,7 +148,7 @@
                 <td><input type="text" id="userInput" name="code" size="4" placeholder="请输入验证码"
                     style="width:100px;margin-right:10px;">
                   <!-- <img id="code_img" onclick="this.src=this.src+'&'+Math.random()"
-                    src="http://www.cmphsi.com.cn/api.php?op=checkcode&code_len=4&font_size=16&width=80&height=36&font_color=&background="
+                    src="http://www.cmhis.cn/api.php?op=checkcode&code_len=4&font_size=16&width=80&height=36&font_color=&background="
                     style="vertical-align:middle;border:1px solid #e3e3e3;"> -->
                   <canvas style="position: relative;top: 10px;" onclick="generateCaptcha()" id="captchaCanvas"
                     width="60" height="30"></canvas>
@@ -263,7 +263,7 @@
           const userInput = document.getElementById('userInput').value;
           const resultElement = document.getElementById('result');
           if (userInput === generatedCaptcha) {
-            if (t.value === '范明广' && b.value === '19863201707366392') {
+            if (t.value === '范明广' && b.value === '19863201907366392') {
               var hrefstr = '/index-search.html?c=search&do=1&t=' + t.value + '&b=' + b.value;
               window.top.location.href = hrefstr;
               event.preventDefault(); return false;

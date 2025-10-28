@@ -24,7 +24,7 @@
 	font-size: 30px;
 	height: 140px;
 	padding:0 0px;
-	background: url(http://www.cmphsi.com.cn/static/image/line.png) no-repeat right center;
+	background: url(http://www.cmhis.cn/static/image/line.png) no-repeat right center;
 	line-height: 30px;
 }
 	.table_cx2 tr{ height: 54px; margin-bottom: 8px; }
@@ -53,7 +53,7 @@
 	
 mianzt{width:1004px;margin: 0 auto;}
 .mianzt .tabs {background-color: #fff;border-left: 1px #ddd solid;width:360px;margin-top: 16px;float: left;margin-right:15px;height: 334px;border-right: 1px #ddd solid;border-bottom:1px #ddd solid;}
-.mianzt .tabs-nav {background: url(http://www.cmphsi.com.cn/static/image/bt.png) repeat-x;height: 40px;line-height: 40px;width: 350px;}
+.mianzt .tabs-nav {background: url(http://www.cmhis.cn/static/image/bt.png) repeat-x;height: 40px;line-height: 40px;width: 350px;}
 .mianzt .tabs-nav li {cursor: pointer;display: inline-block;width: 100px;font-size: 16px;text-align: center;}
 .mianzt .tabs-nav li.active {color:#ffffff;font-weight: bolder;background: #0c66cc;}
 .mianzt .tabs-nav a{float: right;color: #737373;font-size: 12px;padding-right:8px;}
@@ -64,14 +64,14 @@ mianzt{width:1004px;margin: 0 auto;}
 .tabs-contents .tabpic span h2{color:#080808;font-size: 14px;font-weight: bold;line-height:32px;overflow: hidden;}
 .tabs-contents .tabpic span h6{color:#4e4e4e;font-size: 14px;line-height: 22px;height: 66px;overflow: hidden;}
 .tabs-contents ul{clear: both;border-top: 1px dashed #DCDCDC;padding-top: 7px;}
-.tabs-contents ul li{OVERFLOW: hidden;LINE-HEIGHT:29px;HEIGHT: 30px;background-image: url(http://www.cmphsi.com.cn/static/image/b.png);background-position: left 12px;background-repeat: no-repeat;text-indent:9px;text-align: left;margin-left: 11px;}
+.tabs-contents ul li{OVERFLOW: hidden;LINE-HEIGHT:29px;HEIGHT: 30px;background-image: url(http://www.cmhis.cn/static/image/b.png);background-position: left 12px;background-repeat: no-repeat;text-indent:9px;text-align: left;margin-left: 11px;}
 .tabs-contents ul li a{color: #454545;font-size: 14px;}
 .tabs-contents ul li span{float: right;color: #a4a4a4;font-size: 13px;}
 .ztleft .tg{clear: both;width:739px;float: left;height: 88px;margin-top:17px;margin-bottom: 4px;}
 .ztleft .tg img{width:739px;float: left;height: 88px;}
 .mianzt .ztleft{float:left;width:754px;}
 .mianzt .zright{float:left;width:250px;margin-top: 16px;}
-.mianzt .zright .leader{width:250px;float:left;background: url(http://www.cmphsi.com.cn/static/image/rw.png) no-repeat;height: 235px;}
+.mianzt .zright .leader{width:250px;float:left;background: url(http://www.cmhis.cn/static/image/rw.png) no-repeat;height: 235px;}
 .mianzt .zright .leader .titley{float: left;width:250px;height: 40px;line-height: 40px;}
 .mianzt .zright .leader .titley span{font-size: 16px;color: #286fbd;font-weight: bold;line-height: 40px;padding-left: 12px;}
 .mianzt .zright .leader .titley a{float:right;color: #737373;font-size: 12px;padding-right: 10px;}
@@ -83,18 +83,18 @@ mianzt{width:1004px;margin: 0 auto;}
 .mianzt .zright .leader ul li h2 a{color: #e12000;}
 .mianzt .zright .leader ul li h6{color: #545454;font-size: 13px;line-height: 21px;padding-top: 5px;height: 45px;overflow: hidden;}
 .mianzt .zright .rsrm{width:250px;float:left;height:175px;margin-top: 20px;border-right: 1px #b1d8ef solid;border-bottom: 1px #b1d8ef solid;border-left: 1px #b1d8ef solid;}
-.mianzt .zright .rsrm .titley{float: left;width:250px;height: 40px;line-height: 40px;background: url(http://www.cmphsi.com.cn/static/image/xw.png) repeat-x;}
+.mianzt .zright .rsrm .titley{float: left;width:250px;height: 40px;line-height: 40px;background: url(http://www.cmhis.cn/static/image/xw.png) repeat-x;}
 .mianzt .zright .rsrm .titley span{font-size: 16px;color: #286fbd;font-weight: bold;line-height: 40px;padding-left: 12px;}
 .mianzt .zright .rsrm .titley a{float:right;color: #737373;font-size: 12px;padding-right: 10px;}
 .mianzt .zright .rsrm ul{clear: both;padding-top: 5px;}
-.mianzt .zright .rsrm ul li{width: 238px;line-height: 30px;height: 30px;background-image: url(http://www.cmphsi.com.cn/static/css/x../image/b.png);background-repeat: no-repeat;background-position: left center;text-indent: 7px;float: left;margin-left: 9px;overflow: hidden;}
+.mianzt .zright .rsrm ul li{width: 238px;line-height: 30px;height: 30px;background-image: url(http://www.cmhis.cn/static/css/x../image/b.png);background-repeat: no-repeat;background-position: left center;text-indent: 7px;float: left;margin-left: 9px;overflow: hidden;}
 .mianzt .zright .rsrm ul li a{font-size: 14px;color: #252525;}
 
 .mianzt .zright .dzfwpt{width:250px;float:left;height:340px;margin-top: 20px;border-right: 1px #b1d8ef solid;border-bottom: 1px #b1d8ef solid;border-left: 1px #b1d8ef solid;}
-.mianzt .zright .dzfwpt .titley{float: left;width:250px;height: 40px;line-height: 40px;background: url(http://www.cmphsi.com.cn/static/image/xw.png) repeat-x;}
+.mianzt .zright .dzfwpt .titley{float: left;width:250px;height: 40px;line-height: 40px;background: url(http://www.cmhis.cn/static/image/xw.png) repeat-x;}
 .mianzt .zright .dzfwpt .titley span{font-size: 16px;color: #286fbd;font-weight: bold;line-height: 40px;padding-left: 12px;}
 .mianzt .zright .dzfwpt .titley a{float:right;color: #737373;font-size: 12px;padding-right: 10px;}
-.mianzt .zright .dzfwpt ul {float: left;width: 228px;height: 275px;background: url(http://www.cmphsi.com.cn/static/image/bjt.png) no-repeat;margin-top: 12px;margin-left: 10px;}
+.mianzt .zright .dzfwpt ul {float: left;width: 228px;height: 275px;background: url(http://www.cmhis.cn/static/image/bjt.png) no-repeat;margin-top: 12px;margin-left: 10px;}
 .mianzt .zright .dzfwpt ul li {float: left;width: 68px;height: 42px;line-height: 42px;margin:0 4px 5px 42px;overflow: hidden;}
 .mianzt .zright .dzfwpt ul li a{color: #6e6780;font-size: 14px;}
 
