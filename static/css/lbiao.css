@@ -1,7 +1,12 @@
 
 
 body { margin:0 auto; background-color:#FFF; color:#222; font:12px Verdana, Sans-Serif, Arial, '宋体'; }
-
+ 
+ .xxgk_gray_title{
+	width: 100px !important;
+	display: inline-block;
+}
+ 
 
 img, a img { margin:0; padding:0; border:none; }
 
